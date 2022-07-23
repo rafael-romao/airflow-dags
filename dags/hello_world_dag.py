@@ -5,7 +5,7 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.dummy import DummyOperator
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-from logging import logging
+import logging
 
 def helloWorld():
     """ Print a Hello World for studies propourses """
